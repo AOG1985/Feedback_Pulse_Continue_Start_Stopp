@@ -1,0 +1,74 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: bold;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button.stop {
+    background-color: #ff4d4d; /* Red */
+}
+
+button.continue {
+    background-color: #ffcc00; /* Yellow */
+    color: black; /* Ensure text is readable on yellow */
+}
+
+button.start {
+    background-color: #5cd65c; /* Green */
+}
+
+/* Selected Button Styles */
+button.selected {
+    border: 3px solid black; /* Add a border when selected */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
